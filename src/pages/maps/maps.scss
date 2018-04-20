@@ -1,0 +1,25 @@
+maps{}
+// Styling for the icons which change the various modes on the map
+.map-icon{
+  font-size: 40px;
+  float: right;
+  display: block;
+  cursor: pointer;
+  background: map-get($colors, secondary-dark-blue);
+  color: white;
+  border-radius: 35px;
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 65px!important;
+  -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  -webkit-transition: 500ms ease all;
+  -moz-transition: 500ms ease all;
+  -o-transition: 500ms ease all;
+  transition: 500ms ease all;
+  z-index: 16;
+}

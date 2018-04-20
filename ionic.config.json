@@ -1,0 +1,8 @@
+{
+  "name": "aeroview-mobile",
+  "app_id": "0ce2be4a",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
